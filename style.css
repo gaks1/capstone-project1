@@ -1,0 +1,85 @@
+@import url("https://use.typekit.net/bgt2drt.css");
+
+body{
+    font-family: Lato;
+}
+
+.black{
+color: #272a31;
+}
+
+.orange{
+color: #ec5242;
+}
+.grey{
+color: #d3d3d3;
+}
+.main-program{
+   
+   gap: 40px;
+}
+.card-img-top{
+    width: 80px !important;
+    height: 80px !important;
+}
+.card{
+   
+   width: 90% !important;
+   margin-left: 5%;
+}
+
+
+.partners{
+    gap: 4%;
+}
+.partners-img{
+    width: 30%;
+}
+.cc{
+    
+
+}
+.cc-img{
+    width: 40%;
+    height: 100px;
+}
+.about-head{
+}
+.text-div{
+    width: 60%;
+    border: 1px solid gray;
+}
+
+.past-conference {
+    gap: 40px;
+}
+.section-logo{
+}
+.logo{
+    width: 60%;
+    border: 1px solid gray;
+}
+.conference {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    background-repeat: no-repeat;
+    height: 250px;
+    
+}
+.conference1{
+    background-image: url(img/2022.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ .conference2{
+    background-image: url(img/2021.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }            
+ .overlay{
+    background-color: rgba(236, 82, 66, 0.5);
+    height: 100%;
+ }
