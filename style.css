@@ -3,7 +3,40 @@
 body{
     font-family: Lato;
 }
+.blur {
+    display: none !important;
+}
+.body-width{
+    width: 90% !important;
+    margin-left: 5%;
+}
+.head-width {
+    width: 85% !important;
+    margin-left: 5%;
+}
+.head-hello {
+    font-size: 50px;
+    font-weight: 400;
+}
 
+.head-title {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.head-paragraph {
+    width: 95%;
+}
+
+.head-date {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.head-at {
+    font-size: 30px;
+    font-weight: 600;
+}
 .black{
 color: #272a31;
 }
@@ -14,20 +47,24 @@ color: #ec5242;
 .grey{
 color: #d3d3d3;
 }
-.main-program{
-   
+.blackish{
+    color: #272a31;
+}
+.main-program-container{
+   display: flex;
+   flex-direction: column;
+   width: 90% !important;
+   margin-left: 5%;
    gap: 40px;
 }
 .card-img-top{
     width: 80px !important;
     height: 80px !important;
 }
-.card{
-   
-   width: 90% !important;
-   margin-left: 5%;
-}
 
+.partners-div{
+
+}
 
 .partners{
     gap: 4%;
@@ -36,35 +73,39 @@ color: #d3d3d3;
     width: 30%;
 }
 .cc{
-    
+    height: 9rem;
 
 }
 .cc-img{
-    width: 40%;
+    width: 181px;
     height: 100px;
 }
 .about-head{
-}
-.text-div{
-    width: 60%;
-    border: 1px solid gray;
+    display: flex;
 }
 
+
 .past-conference {
+    display: flex;
     gap: 40px;
 }
 .section-logo{
+    display: flex;
 }
 .logo{
     width: 60%;
     border: 1px solid gray;
 }
+.past-conference-image {
+    flex-direction: column;
+    gap: 40px;
+}
 .conference {
     position: relative;
     text-align: center;
     color: white;
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
     background-repeat: no-repeat;
     height: 250px;
     
@@ -82,4 +123,211 @@ color: #d3d3d3;
  .overlay{
     background-color: rgba(236, 82, 66, 0.5);
     height: 100%;
+
  }
+.main-program-card{
+    
+    flex-direction: row !important;
+}
+.main-program-card-body{
+    display: flex !important;
+    width: 90%;
+    margin-left: 5%;
+}
+.mobile-menu{
+    display: block;
+    margin-left: 5%;
+}
+.nav-logo{
+    width: 100px;
+}
+.desktop-menu{
+ display: none !important;
+}
+.partners-colour{
+    background-color: #272a31;
+    height: 15rem;
+}
+.see-program{
+display: none;
+}
+.join{ 
+    display: flex;
+ width:60%;
+ height: 3rem;
+ background-color: #ec5242;
+ text-decoration: none;
+ color: #fff;
+}
+
+
+.about-head-hello{
+font-size: 40px;
+    font-weight: 400;
+}
+.about-head-title{
+font-size: 45px;
+    font-weight: 900;
+}
+.about-text-div{
+width: 70%;
+border: 5px solid black ;
+}
+.section-logo-text{
+    width: 330px;
+}
+.section-logo-paragraph{
+
+}
+.nav{
+    
+}
+.menu-container {
+    display: none;
+    width: 100%;
+        height: 100vh;
+    background-color: #d3d3d3;
+    flex-direction: column;
+}
+
+.menu-hamburger {
+    display: flex;
+    
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+.mobile-link-item {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #ec5242;
+}
+.menu-close{
+    width:50px;
+    height: 50px;;
+}
+@media only screen and (min-width:769px) {
+.main-program-card {
+flex-direction: column !important;
+width: 20% !important;
+    margin-left: 5%;
+    }
+
+        .main-program-card-body {
+            display: flex !important;
+            flex-direction: column;
+            
+        }
+                .main-program-container {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 3px;
+                    margin-right: 5%;
+                    margin-left: 5%;
+                }
+                .partners-img{
+                    width: 15%;
+                }
+                                .mobile-menu {
+                                    display: none;
+                                    margin-left: 5%;
+                                }
+                                .desktop-menu{
+                                    display: flex !important;
+                                    width: 90%;
+                                    margin-left: 5%;
+                                    justify-content: space-between !important;
+                                }
+                                .head-width{
+                                    width: 85% !important;
+                                    margin-left: 5%;
+                                }
+                                .head-hello{
+                                font-size: 50px;
+                                font-weight: 400;
+                                }
+                                .head-title{
+font-size: 75px;
+    font-weight: 900;
+                                }
+                                                                .head-paragraph{
+                                                                    width: 600px;
+                                                                }
+                                                                .head-date{
+                                                                    font-size: 40px;
+                                                                    font-weight: 800;
+                                                                }
+                                                                .head-at{
+                                                                    font-size: 30px;
+                                                                    font-weight: 600;
+                                                                }
+                                                                .partners-colour{
+    background-color: #272a31;
+    height: 12rem;
+}
+.see-program {
+    display: flex;
+    color: #fff;
+}
+
+.join {
+    display: none ;
+}
+.past-conference {
+    
+    gap: 40px;
+}
+.past-conference-image{
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 9%;
+}
+.conference {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 40%;
+    margin-left: 0;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+
+.conference1 {
+    background-image: url(img/2022.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.conference2 {
+    background-image: url(img/2021.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background-color: rgba(236, 82, 66, 0.5);
+    height: 100%;
+}
+.section-logo-text {
+    width: 100%
+}
+.navbar-nav {
+    width: 60%;
+    justify-content: space-between;
+}
+.menu-container {
+    display: none;
+   
+}
+}
