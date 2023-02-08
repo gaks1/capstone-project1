@@ -1,7 +1,16 @@
-@import url("https://use.typekit.net/bgt2drt.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 body{
-    font-family: Lato;
+    font-family: 'Lato', sans-serif !important;
+}
+.btn{
+
+    border: 8px solid #ec5242 !important;
+    color: #ec5242 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-radius: 0 !important;
 }
 .blur {
     display: none !important;
@@ -10,35 +19,42 @@ body{
     width: 90% !important;
     margin-left: 5%;
 }
+.index-head{
+    background-image: url(img/backgroundHeader.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .head-width {
     width: 85% !important;
     margin-left: 5%;
 }
 .head-hello {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
 }
 
 .head-title {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 900;
 }
 
 .head-paragraph {
     width: 95%;
+    border: 5px solid white;
 }
 
 .head-date {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .head-at {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
+    margin-bottom: 0;
 }
-.black{
-color: #272a31;
+.nav-link{
+    color: #272a31 !important;
 }
 
 .orange{
@@ -48,7 +64,17 @@ color: #ec5242;
 color: #d3d3d3;
 }
 .blackish{
-    color: #272a31;
+    color: #272a31 !important;
+}
+.main-program{
+    background-color: #272a31;
+        background-image: url(img/patternBackgroundmain.png);
+}
+.main-program-head{
+    color: white;
+}
+.featured{
+    font-weight: 600;
 }
 .main-program-container{
    display: flex;
@@ -56,12 +82,15 @@ color: #d3d3d3;
    width: 90% !important;
    margin-left: 5%;
    gap: 40px;
+   
 }
 .card-img-top{
     width: 80px !important;
     height: 80px !important;
 }
-
+.program-text{
+    color: #fff;
+}
 .partners-div{
 
 }
@@ -82,6 +111,12 @@ color: #d3d3d3;
 }
 .about-head{
     display: flex;
+    background-color: #d3d3d336;
+    background-image: url(img/backgroundHeaderAbout.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    gap: 2rem;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 
@@ -91,10 +126,12 @@ color: #d3d3d3;
 }
 .section-logo{
     display: flex;
+    border-bottom:  1px solid #d3d3d3;
+
 }
 .logo{
     width: 60%;
-    border: 1px solid gray;
+    border: 1px solid #d3d3d3;
 }
 .past-conference-image {
     flex-direction: column;
@@ -112,12 +149,12 @@ color: #d3d3d3;
 }
 .conference1{
     background-image: url(img/2022.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
  .conference2{
     background-image: url(img/2021.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
  }            
  .overlay{
@@ -128,13 +165,18 @@ color: #d3d3d3;
 .main-program-card{
     
     flex-direction: row !important;
+    
 }
 .main-program-card-body{
     display: flex !important;
     width: 90%;
     margin-left: 5%;
 }
+.main-program-card-body-title{
+    font-weight: 600;
+}
 .mobile-menu{
+    position: fixed !important;
     display: block;
     margin-left: 5%;
 }
@@ -159,7 +201,9 @@ display: none;
  text-decoration: none;
  color: #fff;
 }
-
+.past-conference-head{
+    font-weight: 600;
+}
 
 .about-head-hello{
 font-size: 40px;
@@ -171,10 +215,11 @@ font-size: 45px;
 }
 .about-text-div{
 width: 70%;
-border: 5px solid black ;
+border: 2px solid #d3d3d3 ;
+background-color: white;
 }
 .section-logo-text{
-    width: 330px;
+    font-weight:600 ;
 }
 .section-logo-paragraph{
 
@@ -216,7 +261,74 @@ border: 5px solid black ;
     width:50px;
     height: 50px;;
 }
+
+.margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div-image {
+    height: 95%;
+    background-image: url(img/gray-checkered-pattern-seamless-vector-20929557-1038485530.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+
+.card-img-top1 {
+    width: 150px !important;
+    height: 150px !important;
+    padding-top: 10%;
+        padding-left: 10%;
+}
+
+.card-body1 {
+    padding-left: 50px !important;
+}
+
+.card-text1 {
+    color: #ec5242;
+}
+
+.card1{
+    border: none !important;
+}
+
+.underline{
+    margin-left: 47%;
+    height: 1px;
+    width: 3rem;
+    background-color: #ec5242;
+}
+.underline1{
+    height: 1px;
+        width: 3rem;
+        background-color: #ec5242;
+}
+.year{
+    font-size:40px ;
+    font-weight: 600;
+}
+.year-message{
+    font-size:20px ;
+    font-weight: 300;
+}
+.email{
+    color: #272a31;
+    text-decoration: none;
+        border-bottom: 1px solid;
+        padding-bottom: 5px;
+}
 @media only screen and (min-width:769px) {
+    .div{
+        height: 5rem;
+    }
 .main-program-card {
 flex-direction: column !important;
 width: 20% !important;
@@ -243,10 +355,14 @@ width: 20% !important;
                                     margin-left: 5%;
                                 }
                                 .desktop-menu{
+                                    position: fixed !important;
+                                    background-color: white;
                                     display: flex !important;
-                                    width: 90%;
-                                    margin-left: 5%;
+                                    width: 100%;
+                                    padding-left: 5% !important;
+                                    padding-right: 5% !important;
                                     justify-content: space-between !important;
+                                    border-bottom: 1px solid #d3d3d3;
                                 }
                                 .head-width{
                                     width: 85% !important;
@@ -268,8 +384,7 @@ font-size: 75px;
                                                                     font-weight: 800;
                                                                 }
                                                                 .head-at{
-                                                                    font-size: 30px;
-                                                                    font-weight: 600;
+                                                                    font-size: 25px;
                                                                 }
                                                                 .partners-colour{
     background-color: #272a31;
@@ -278,6 +393,9 @@ font-size: 75px;
 .see-program {
     display: flex;
     color: #fff;
+    text-decoration: none;
+        border-bottom: 1px solid;
+        padding-bottom: 5px;
 }
 
 .join {
@@ -305,13 +423,13 @@ font-size: 75px;
 
 .conference1 {
     background-image: url(img/2022.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .conference2 {
     background-image: url(img/2021.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -329,5 +447,12 @@ font-size: 75px;
 .menu-container {
     display: none;
    
+}
+
+.speakers {
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+.center-text{
+    text-align: center;
 }
 }
