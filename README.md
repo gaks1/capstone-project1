@@ -119,7 +119,7 @@ You can deploy this project using:
 
 github pages.
 
-Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
+Deployed [project](https://gaks1.github.io/capstone-project1/) for view.
  
 
 
