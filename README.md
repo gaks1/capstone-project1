@@ -37,7 +37,7 @@
 
 
 **[Travel Conference]** is a website that shows my skills in web development. It is a mock website for a travel conference that could happen in Kenya.<br>
-A [loom video](https://www.loom.com/share/d6172d4d8ba84125b7b3bc3a7e02d10c) description of my project.
+A [loom video](https://www.loom.com/share/001b7b034bfe4ce5a288efb4d5929a04) description of my project.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
