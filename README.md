@@ -22,7 +22,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -105,13 +104,6 @@ http-server public
 
 
 
-### Run tests
-
-To run tests, go to:
-
-1. htmltester--> https://wave.webaim.org/
-2. csstester-->https://jigsaw.w3.org/css-validator/
-
 
 ### Deployment
 
@@ -158,7 +150,7 @@ Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/gaks1/Isaac-portfolio/issues).
+Feel free to check the [issues page](https://github.com/gaks1/capstone-project1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
