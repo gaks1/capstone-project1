@@ -37,7 +37,7 @@
 
 
 **[Travel Conference]** is a website that shows my skills in web development. It is a mock website for a travel conference that could happen in Kenya.<br>
-A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) description of my project.
+A [loom video](https://www.loom.com/share/d6172d4d8ba84125b7b3bc3a7e02d10c) description of my project.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -111,7 +111,7 @@ You can deploy this project using:
 
 github pages.
 
-Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
+Deployed [project](https://gaks1.github.io/capstone-project1/) for view.
  
 
 
