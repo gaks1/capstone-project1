@@ -380,6 +380,25 @@ hr {
   font-size: 12px;
 }
 
+.none1 {
+  display: none !important;
+}
+
+.more-img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.butt1 {
+  background-color: white;
+  height: 40px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+}
+
 @media only screen and (min-width: 769px) {
   .div {
     height: 5rem;
@@ -584,5 +603,13 @@ hr {
     height: 60px;
     margin: 6px 6px 0 6px;
     padding: 6px 6px 0 6px;
+  }
+
+  .none1 {
+    display: flex !important;
+  }
+
+  .butt1 {
+    display: none !important;
   }
 }

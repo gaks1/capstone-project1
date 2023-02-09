@@ -38,7 +38,6 @@ const speakers = [
     position: 'CEO of Stanely Adventures',
     image: 'img/sp2.png',
     description: 'Anne is responsible for attracting tourists',
-
   },
   {
     name: 'Joseph Strathmore',
@@ -67,11 +66,13 @@ const speakers = [
 ];
 
 const sp = document.querySelector('.div-speaker');
-
+const more = 'MORE';
+const less = 'LESS';
+const moreimg = 'img/down1.png';
 window.addEventListener('load', () => {
   for (let i = 0; i < speakers.length; i += 1) {
     const div1 = document.createElement('div');
-    div1.classList.add('border-0', 'card', 'd-flex', 'flex-row', 'margin');
+    div1.classList.add('border-0', 'card', 'flex-row', 'margin');
     const div2 = document.createElement('div');
     div2.classList.add('div-image');
     const img2 = document.createElement('img');
@@ -99,4 +100,42 @@ window.addEventListener('load', () => {
     div3.appendChild(line);
     div3.appendChild(p2);
   }
+  const butt = document.createElement('button');
+  butt.textContent = more;
+  butt.classList.add('butt1');
+  const butt2 = document.createElement('button');
+  butt2.textContent = less;
+  butt2.classList.add('butt1');
+  butt2.style.display = 'none';
+  const img3 = document.createElement('img');
+  img3.src = moreimg;
+  img3.classList.add('more-img');
+  butt.appendChild(img3);
+  sp.appendChild(butt);
+  sp.appendChild(butt2);
+
+  const div1 = document.querySelectorAll('.margin');
+  for (let i = 2; i < div1.length; i += 1) {
+    div1[i].classList.add('none1');
+  }
+
+  butt.addEventListener('click', () => {
+    for (let i = 2; i < div1.length; i += 1) {
+      div1[i].classList.remove('none1');
+    }
+    butt.style.display = 'none';
+    butt2.style.display = 'block';
+    img3.style.transform = 'scaleY(-1)';
+    butt2.appendChild(img3);
+  });
+
+  butt2.addEventListener('click', () => {
+    for (let i = 2; i < div1.length; i += 1) {
+      div1[i].classList.add('none1');
+    }
+    butt2.style.display = 'none';
+    butt.style.display = 'block';
+    img3.style.transform = 'scaleY(1)';
+    butt.appendChild(img3);
+  });
 });
